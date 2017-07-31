@@ -1,0 +1,5 @@
+<h3> Articles </h3>
+<div *ngFor="let post of posts">
+  <h2 (click)="showDetail(post)" >{{post.title}}</h2>
+  <p>{{post.body}}</p>
+</div>
